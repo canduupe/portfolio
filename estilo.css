@@ -1,0 +1,60 @@
+body{
+    color: white;
+    background-image: url('fondo.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header{
+    background-color:darkslategray;;
+    color: black;
+    display: flex;
+    height: 70px;
+    padding-left: 25px;
+    text-align:center;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 15px;
+    width: 35%;
+}
+
+.lenguajes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto{
+    color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+
+
+footer{
+    color: black;
+    background-color:darkslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 150px;
+}
+
+
+.redes{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
