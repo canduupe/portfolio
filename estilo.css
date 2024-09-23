@@ -7,12 +7,23 @@ body{
 }
 
 header{
+    width: 100%;
     background-color:darkslategray;;
     color: black;
     display: flex;
     height: 70px;
     padding-left: 25px;
     text-align:center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 180px;
 }
 
 .perfil{
@@ -41,8 +52,18 @@ p{
     align-items: right;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    right: 100px;
+    width: 180px; 
+}
+
 
 footer{
+    width: 100%;
     color: black;
     background-color:darkslategray;
     display: flex;
@@ -50,6 +71,7 @@ footer{
     justify-content: flex-start;
     align-items: center;
     height: 150px;
+    justify-content: space-between;
 }
 
 
